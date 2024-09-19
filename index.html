@@ -470,37 +470,34 @@
 								</div>
 							</div>
 						</div>
-					</div>
-					
-					
-					<div id="page-5" class="page five">
-						<h2 id="projects-section" class="heading">Projects</h2>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2023.06-2023.08</span>
-								<div class="d-flex">
-									<h2>ROS 기반 유아용 전동차 자율주행 시스템</h2>
+						<div id="page-5" class="page five">
+							<h2 id="projects-section" class="heading">Projects</h2>
+							<div class="resume-wrap d-flex ftco-animate">
+								<div class="icon d-flex align-items-center justify-content-center">
+									<span class="flaticon-ideas"></span>
 								</div>
-								<span class="position">팀장</span>
-								<div> <b class="text-dark">기술 스택 : </b>Python, C++, Pytorch, Ultralytics(yolov8), OpenCV, ROS, Linux
-								</div>
-								<div> <b class="text-dark">주요 기능 : </b>
-										<div> - 유아용 전동차 프로세스를 제거하고 Arduino Mega 프로세서로 교체</div>
-										<div> - 허프 변환(Hough Transformation)을 통해 직선을 검출하고 검출된 차선 중 왼쪽 차선으로 판단되는 직선들과 오른쪽 차선으로 
-											판단되는 직선들을 구분하고 구분된 직선으로 외쪽 대표 직선과 오른쪽 대표 직선을 검출한 후 검출된 대표 직선을 기준으로 차량의 조향을 정함</div>
-										<div> - 가변 저항을 사용하여 차량의 조향 위치를 ADC 값으로 확인하고 각 ADC 값에
-											따라 조향 제어</div>
-										<div> - yolov8로 학습한 Segmentation 모델을 사용하여 총 2개의 차선중 중앙 차선을 검출하였고 해당 중앙 차선을 기준으로 
-											1, 2차선을 구분하여 초음파 센서로부터 장애물 검출 신호를 받으면 차선 변경 회피 기동</div>
-										<div> - 신호등 검출은 yolov8n 모델로 신호등 영역을 검출하여 검출된 영역의 크기가 일정 크기 이상일 때 현재 주행중인 차량에 영향을 주는 신호등이라고 판단하여
-											 해당 영역을 crop하고 색 분류를 수행하는 Classification 모델에서 해당 영역의 신호등이 어떤 색의 신호인지 구분한 후 정지</div>
+								<div class="text pl-3">
+									<span class="date">2023.06-2023.08</span>
+									<div class="d-flex">
+										<h2>ROS 기반 유아용 전동차 자율주행 시스템</h2>
+									</div>
+									<span class="position">팀장</span>
+									<div> <b class="text-dark">기술 스택 : </b>Python, C++, Pytorch, Ultralytics(yolov8), OpenCV, ROS, Linux
+									</div>
+									<div> <b class="text-dark">주요 기능 : </b>
+											<div> - 유아용 전동차 프로세스를 제거하고 Arduino Mega 프로세서로 교체</div>
+											<div> - 허프 변환(Hough Transformation)을 통해 직선을 검출하고 검출된 차선 중 왼쪽 차선으로 판단되는 직선들과 오른쪽 차선으로 
+												판단되는 직선들을 구분하고 구분된 직선으로 외쪽 대표 직선과 오른쪽 대표 직선을 검출한 후 검출된 대표 직선을 기준으로 차량의 조향을 정함</div>
+											<div> - 가변 저항을 사용하여 차량의 조향 위치를 ADC 값으로 확인하고 각 ADC 값에
+												따라 조향 제어</div>
+											<div> - yolov8로 학습한 Segmentation 모델을 사용하여 총 2개의 차선중 중앙 차선을 검출하였고 해당 중앙 차선을 기준으로 
+												1, 2차선을 구분하여 초음파 센서로부터 장애물 검출 신호를 받으면 차선 변경 회피 기동</div>
+											<div> - 신호등 검출은 yolov8n 모델로 신호등 영역을 검출하여 검출된 영역의 크기가 일정 크기 이상일 때 현재 주행중인 차량에 영향을 주는 신호등이라고 판단하여
+												해당 영역을 crop하고 색 분류를 수행하는 Classification 모델에서 해당 영역의 신호등이 어떤 색의 신호인지 구분한 후 정지</div>
+									</div>
 								</div>
 							</div>
 						</div>
-						
 						<div class="resume-wrap d-flex ftco-animate">
 							<div class="icon d-flex align-items-center justify-content-center">
 								<span class="flaticon-ideas"></span>
