@@ -73,7 +73,7 @@
 
 	    $('html, body').animate({
 	        scrollTop: $($.attr(this, 'href')).offset().top - 90
-	    }, 700, function() {
+	    }, 500, function() {
 	    	// window.location.hash = href;
 	    });
 		});
