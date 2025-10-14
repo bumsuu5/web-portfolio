@@ -708,7 +708,26 @@
 	<script src="js/scrollax.min.js"></script>
 
 	<script src="js/main.js"></script>
+<script>
+    $(document).ready(function(){
+        // 상단 메인 메뉴의 링크를 클릭했을 때
+        $("#ftco-navbar .nav-link[href^='#']").on('click', function(event) {
+            
+            // 기본 링크 이동 기능을 막습니다.
+            event.preventDefault();
 
+            var hash = this.hash;
+
+            // 부드럽게 스크롤하는 애니메이션 효과
+            $('html, body').animate({
+                // 목적지 위치에서 80픽셀만큼 위에서 멈추도록 계산합니다.
+                scrollTop: $(hash).offset().top - 80 
+            }, 800, 'swing');
+        });
+    });
+    </script>
+    </body>
+</html>
 </body>
 
 </html>
